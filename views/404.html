@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>404 Not Found</title>
+</head>
+<script>
+  // fetch user's requested url
+  const url = window.location.href;
+  // fetch user's requested url path
+  const path = window.location.pathname;
+
+  // put path to span element of id path
+  document.getElementById('path').innerHTML = path;
+  
+</script>
+<body>
+  <h1>404 Not Found</h1>
+  <p>No contents are found with your request <span id="path"></span></p>
+  
+</body>
+</html>
