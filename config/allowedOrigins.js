@@ -1,9 +1,7 @@
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://localhost:5173',
-  'http://localhost:3000',  
-  'https://www.dandrepareship.com',
-  'https://dandrepareship.com'
+  'https://localhost:5173',    
+  'https://widetechshop.onrender.com'
 ]
 
 module.exports = allowedOrigins
